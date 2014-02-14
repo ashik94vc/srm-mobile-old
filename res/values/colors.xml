@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="buffalo_green">#578ce1</color>
+    <color name="buffalo_green_press">#3166bc</color>
+    <color name="white_button">#f8f8f8</color>
+    <color name="white_button_press">#c8c8c8</color>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="menu_list">
+        <item>Attendance</item>
+        <item>Test Marks</item>
+        <item>Profile</item>
+        <item>About</item>
+        <item>Logout</item>
+    </array>
+    <array name="profile">
+        <item>name</item>
+        <item>regno</item>
+        <item>campus</item>
+        <item>branch</item>
+        <item>father</item>
+        <item>dob</item>
+        <item>sex</item>
+        <item>bloodgroup</item>
+        <item>address</item>
+        <item>email</item>
+        <item>pin</item>
+        <item>place</item>
+        <item>expiry</item>
+        <item>photo</item>
+    </array>
+
+</resources>

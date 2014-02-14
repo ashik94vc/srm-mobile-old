@@ -1,0 +1,7 @@
+<resources>
+    
+    <string name="action_settings">Settings</string>
+    <string name="app_name">SRM Mobile</string>
+    <string name="hello_world">Login</string>
+    <string name="apikey">ffd0236de8ee8222ddb43c2e5076e844</string>
+</resources>

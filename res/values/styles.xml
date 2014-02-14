@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="dialog" parent="@android:style/Theme.DeviceDefault.Light.Dialog" tools:ignore="NewApi" />
+    <style name="navigation" parent="@style/Theme.Sherlock" >
+            <item name="android:background">#212832</item>
+            <item name="android:textColor">#ffffff</item>
+    </style>
+</resources>
