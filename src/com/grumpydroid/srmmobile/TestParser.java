@@ -99,7 +99,7 @@ public class TestParser {
     {
         JsonParse jParse = new JsonParse();
         Log.d("srm","Downloading data");
-        String Json = jParse.getJson("http://api2.grumpydroid.org/evarsity.php","2",user,pass);
+        String Json = jParse.getJson("2",user,pass);
         Log.d("srm1", Json);
         if(Json!=null)
             try {

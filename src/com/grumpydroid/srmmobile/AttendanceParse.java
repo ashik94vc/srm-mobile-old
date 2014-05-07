@@ -98,7 +98,7 @@ public class AttendanceParse {
     void onRefresh(File cFile,String user,String pass)
     {
         JsonParse jParse = new JsonParse();
-        String Json = jParse.getJson("http://api2.grumpydroid.org/evarsity.php","1",user,pass);
+        String Json = jParse.getJson("1",user,pass);
         Log.d("srm1",Json);
         if(Json!=null)
         try {

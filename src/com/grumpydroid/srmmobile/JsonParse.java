@@ -34,12 +34,14 @@ public class JsonParse {
     InputStream inputStream = null;
     static String json = "";
     static JSONObject jsonObject = null;
-    public String getJson(String url,String req,String user,String pass)
+    String url="";
+    public String getJson(String req,String user,String pass)
     {
 
 
         try{
             HttpParams params = new BasicHttpParams();
+            url = URLFetcher.getURL();
             int connectionTimeOut = 5000;
             int socketTimeOut = 5000;
             HttpConnectionParams.setConnectionTimeout(params,connectionTimeOut);
@@ -89,6 +91,7 @@ public class JsonParse {
                 sb.append(line+ "\n");
                 inputStream.close();
                 json = sb.toString();
+                Log.e("Srm",json);
 
         } catch (Exception e) {
             Log.e("srm", "Error converting result " + e.toString());

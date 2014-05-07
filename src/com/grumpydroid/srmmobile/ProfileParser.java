@@ -116,7 +116,7 @@ public class ProfileParser {
     void downloaddata(String user,String pass,File file)
     {
         JsonParse jParse = new JsonParse();
-        String Json = jParse.getJson("http://api2.grumpydroid.org/evarsity.php","3",user,pass);
+        String Json = jParse.getJson("3",user,pass);
         Log.d("srm1", Json);
         if(Json!=null)
             try {
